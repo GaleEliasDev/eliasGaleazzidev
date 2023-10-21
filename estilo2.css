@@ -1,0 +1,48 @@
+.cabecalho {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-image: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(127, 255, 212, 0.767);
+    text-align: center;
+    gap: 40%;
+}
+
+.menu{display: flex;
+text-align: center;
+gap: 35%;
+padding: 1%;
+
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    padding: 3%;
+    background-color: rgba(127, 255, 212, 0.767);
+    color: #000;
+    border-radius: 2% 50%;
+    margin: auto;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+    }
+
+.escrita{display: flex;
+    margin: auto;
+    text-align: justify;
+    padding: 1%;
+    gap: 1%;
+    font-size: large;
+   
+}
+.parceiros {
+    margin: auto;
+    display: flex;
+    gap: 1%;
+
+}
+
+

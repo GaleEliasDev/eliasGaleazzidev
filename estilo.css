@@ -1,0 +1,81 @@
+.container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-image: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 166, 0, 0.439);
+}
+
+.container_menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    gap: 22%;
+    display: flex;
+
+
+}
+
+.container_wrapper {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    text-align: justify;
+    font-size: large;
+
+}
+
+.principal {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.hobbie {
+    display: block;
+    width: 25%;
+    padding: 3px 15px;
+    border-radius: 5px
+}
+
+.git {
+    display: block;
+    width: 25%;
+    padding: 3px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.linkedin {
+    display: block;
+    width: 25%;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: spx 0;
+    font-family: fantasy;
+}
+
+
+.rodape {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    background-color: rgba(255, 166, 0, 0.439);
+    color: #000;
+    border-radius: 2% 50%;
+    margin: spx 0;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    ;
+}
+
+.parceiros {
+    margin: auto;
+    display: flex;
+    gap: 2%;
+}
